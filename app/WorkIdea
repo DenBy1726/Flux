@@ -1,0 +1,31 @@
+1)загрузка приложения
+    bundle.js:4414 PhonesStore: constructor
+    bundle.js:4425 PhonesStore: getInitialState
+    bundle.js:1364 AppContainer: constructor
+    bundle.js:1381 AppContainer: getStore
+    bundle.js:1392 AppContainer: calculateState
+    bundle.js:1373 AppContainer: render
+    bundle.js:1437 AppView: constructor
+    bundle.js:1477 AppView: render
+    bundle.js:1514 Phone: constructor
+    bundle.js:1532 Phone: render
+    bundle.js:1514 Phone: constructor
+    bundle.js:1532 Phone: render
+2)добавление записи
+    AppView: onClick
+    bundle.js:1054 PhonesDispacher: addItem
+    bundle.js:4438 PhonesStore: reduce
+    bundle.js:4451 PhonesStore: AddItem
+    bundle.js:1392 AppContainer: calculateState
+    bundle.js:1373 AppContainer: render
+    bundle.js:1477 AppView: render
+    bundle.js:1532 Phone: render
+3) удаление записи
+    Phone: onClick
+    bundle.js:1061 PhonesDispacher: removeItem
+    bundle.js:4438 PhonesStore: reduce
+    bundle.js:4460 PhonesStore: RemoveItem
+    bundle.js:1392 AppContainer: calculateState
+    bundle.js:1373 AppContainer: render
+    bundle.js:1477 AppView: render
+    bundle.js:1532 Phone: render
